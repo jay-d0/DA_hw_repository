@@ -1,0 +1,132 @@
+:root {
+    background-color: #1A237E;
+}
+div.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+    width: 100%;
+    height: 100vh;
+}
+h1 {
+    font-family: 'BMHANNAPro';
+    font-weight: 700;
+    font-size: 50px;
+    color: #E8EAF6;
+}
+div.bodyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 0.6rem;
+
+    width: 100%;
+    height: 100%;
+}
+div.infoBar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+div.contentBar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 0.6rem;
+}
+
+div.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+
+    width: 25rem;
+
+    background-color: #5C6BC0;
+    border-radius: 15px;
+
+    font-family: 'BMHANNAPro';
+    color: #E8EAF6;
+}
+div.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+
+    width: 25rem;
+
+    background-color: #3F51B5;
+    border-radius: 15px;
+
+    font-family: 'BMHANNAPro';
+    color: #E8EAF6;
+}
+div.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+
+    width: 40rem;
+
+    background-color: #303F9F;
+    border-radius: 15px;
+
+    font-family: 'BMHANNAPro';
+    color: #E8EAF6;
+}
+div.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    width: 40rem;
+    height: 100%;
+
+    background-color: #283593;
+    border-radius: 15px;
+
+    font-family: 'BMHANNAPro';
+    color: #E8EAF6;
+}
+div.profileTitle { font-size: 30px; }
+div.profileSubTitle {
+    padding-top: 1rem;
+    font-size: 25px;
+}
+ul {
+    align-self: start;
+    font-size: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+ul.menu {
+    width: 23rem;
+    height: 10rem;
+    overflow-y: auto;
+}
+img.map {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 15px;
+}
+
+@font-face {
+    font-family: 'BMHANNAPro';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
