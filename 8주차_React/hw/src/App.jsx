@@ -85,6 +85,27 @@ function App() {
                 👍{" "}
               </span>
               {good[i]}
+              <button
+                onClick={(i) => {
+                  let copy = date
+                  copy.splice(i, 1)
+                  setDate(copy);
+
+                  copy = good
+                  copy.splice(i, 1)
+                  setGood(copy);
+
+                  copy = title
+                  copy.splice(i, 1)
+                  setTitle(copy);
+
+                  copy = detail
+                  copy.splice(i, 1)
+                  setDetail(copy);
+                }}
+              >
+                삭제
+              </button>
             </h4>
             <p>{date[i]}</p>
           </div>
